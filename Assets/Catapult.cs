@@ -19,6 +19,14 @@ public class Catapult : Unit {
     void Start () {
         timer = 0;
         rigidBodyBeam = beam.GetComponent<Rigidbody2D>();
+        LoadProjectile();
+    }
+
+    private void LoadProjectile()
+    {
+        GameObject go = Instantiate(projectilePrefab, transform);
+        go.transform.position = projectileLoadPosition.position;
+        currentProjectile = go.GetComponent<Projectile>();
     }
 
     void FireMecanism() {

@@ -81,6 +81,7 @@
     <Compile Include="Assets\FollowArrow.cs" />
     <Compile Include="Assets\ParrallaxBackground.cs" />
     <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\Trebuchet.cs" />
     <Compile Include="Assets\Unit.cs" />
   </ItemGroup>

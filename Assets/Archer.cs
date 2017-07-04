@@ -10,11 +10,18 @@ public class Archer : Unit {
     public float maxArrowPower;
     public Transform archerTop;
     private float currentPowerTimer;
-    private Arrow currentArrow;
+    //private Arrow currentArrow;
 
     void Start () {
         currentPowerTimer = 0f;
-        currentArrow = GetComponentInChildren<Arrow>();
+        LoadProjectile();
+    }
+
+    private void LoadProjectile()
+    {
+        GameObject go = Instantiate(projectilePrefab, archerTop);
+        go.transform.position = projectileLoadPosition.position;
+        currentProjectile = go.GetComponent<Projectile>();
     }
 
     public override void Move()
@@ -32,7 +39,7 @@ public class Archer : Unit {
         if (Input.GetKeyUp(KeyCode.Space))
         {
             float impulseMultiply = Mathf.Clamp((currentPowerTimer / maxPowerTime) * maxArrowPower, 0, maxArrowPower);
-            currentArrow.ThrowArrow(impulseMultiply);
+            ((Arrow)currentProjectile).ThrowArrow(impulseMultiply);
         }
     }
 }
