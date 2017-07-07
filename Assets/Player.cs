@@ -64,7 +64,7 @@ public class Player : MonoBehaviour {
         Unit selectedUnit = units[selectedUnitIndex];
         Projectile projPosition = selectedUnit.currentProjectile;
         Vector3 newCamPosition = new Vector3(projPosition.transform.position.x, projPosition.transform.position.y, mainCamera.transform.position.z);
-        mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, newCamPosition, interpolant);
+        mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, newCamPosition, Time.deltaTime * 15f); //interpolant);
         mainCamera.orthographicSize = Mathf.Lerp(mainCamera.orthographicSize, selectedUnit.cameraZoom, interpolant);
         if (projPosition.GetComponent<Rigidbody2D>().velocity.magnitude == 0 && !returnCorroutineExecute)
             StartCoroutine(ReturnLookToUnit(2));
