@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
+    private static Player instance;
+    public static Player Instance { get { return instance; } }
+
     public List<Unit> units;
     private int selectedUnitIndex;
     private Camera mainCamera;
@@ -12,9 +15,21 @@ public class Player : MonoBehaviour {
     private float cameraTransitionToProjectile;
     public float cameraTransitionDurationToProjectile;
 
-    private bool followProjectile;
+    public Projectile followProjectile;
 
     private bool returnCorroutineExecute;
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
 
     // Use this for initialization
     void Start () {
@@ -25,7 +40,6 @@ public class Player : MonoBehaviour {
         units[selectedUnitIndex].active = true;
 
         mainCamera = GetComponent<Camera>();
-        followProjectile = false;
         cameraTransitionToProjectile = cameraTransitionDurationToProjectile;
     }
 	
@@ -36,16 +50,20 @@ public class Player : MonoBehaviour {
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            followProjectile = true;
-            cameraTransitionToProjectile = 0;
+            
         }
 
         CameraMoveToSelectedUnit();
         CameraMoveToProjectile();
     }
 
+    public void followPorjectile() {
+        followProjectile = units[selectedUnitIndex].currentProjectile;
+        cameraTransitionToProjectile = 0;
+    }
+
     private void CameraMoveToSelectedUnit() {
-        if (followProjectile) return;
+        if (followProjectile != null) return;
         if (cameraTransitionToUnit <= cameraTransitionDurationToUnit) {
             cameraTransitionToUnit += Time.deltaTime;
             float interpolant = cameraTransitionToUnit / cameraTransitionDurationToUnit;
@@ -58,24 +76,26 @@ public class Player : MonoBehaviour {
 
     private void CameraMoveToProjectile()
     {
-        if (!followProjectile) return;
+        if (followProjectile==null) return;
         cameraTransitionToProjectile += Time.deltaTime;
         float interpolant = cameraTransitionToProjectile / cameraTransitionDurationToProjectile;
-        Unit selectedUnit = units[selectedUnitIndex];
-        Projectile projPosition = selectedUnit.currentProjectile;
-        Vector3 newCamPosition = new Vector3(projPosition.transform.position.x, projPosition.transform.position.y, mainCamera.transform.position.z);
+        Vector3 newCamPosition = new Vector3(followProjectile.transform.position.x, followProjectile.transform.position.y, mainCamera.transform.position.z);
         mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, newCamPosition, Time.deltaTime * 15f); //interpolant);
-        mainCamera.orthographicSize = Mathf.Lerp(mainCamera.orthographicSize, selectedUnit.cameraZoom, interpolant);
-        if (projPosition.GetComponent<Rigidbody2D>().velocity.magnitude == 0 && !returnCorroutineExecute)
+        mainCamera.orthographicSize = Mathf.Lerp(mainCamera.orthographicSize, 5f, interpolant);
+        //print(followProjectile.GetComponent<Rigidbody2D>().velocity.magnitude);
+        if (followProjectile.GetComponent<Rigidbody2D>().velocity.magnitude <= 0.1f && !returnCorroutineExecute) {
+            print(followProjectile.GetComponent<Rigidbody2D>().velocity.magnitude);
             StartCoroutine(ReturnLookToUnit(2));
+        }
     }
 
     IEnumerator ReturnLookToUnit(float time) {
+        print("Return");
         returnCorroutineExecute = true;
         yield return new WaitForSeconds(time);
-        followProjectile = false;
+        followProjectile = null;
         returnCorroutineExecute = false;
-        yield return null;
+        cameraTransitionToUnit = 0;
     }
 
     void NextUnit() {

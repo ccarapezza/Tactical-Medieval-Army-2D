@@ -36,8 +36,10 @@ public class Trebuchet : Unit
             rb.bodyType = RigidbodyType2D.Kinematic;
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space)) {
             rb.bodyType = RigidbodyType2D.Dynamic;
+            Player.Instance.followPorjectile();
+        }
 
         // if (Input.GetKeyUp(KeyCode.R))
         //     StartCoroutine(ReloadTrebuchet());
@@ -58,13 +60,11 @@ public class Trebuchet : Unit
         rb.bodyType = RigidbodyType2D.Kinematic;
         while (time < 1f)
         {
-            print("rotate");
-            //beam.transform.Rotate(Vector3.forward * Time.deltaTime * 25);
-            var p = beam.transform.eulerAngles;
+            var rotation = beam.transform.eulerAngles;
             time += Time.deltaTime * 3f;
-            p.z = Mathf.LerpAngle(z, initialRotation.z, time);
+            rotation.z = Mathf.LerpAngle(z, initialRotation.z, time);
 
-            beam.transform.eulerAngles = p;
+            beam.transform.eulerAngles = rotation;
 
             yield return null;
         }
@@ -73,6 +73,7 @@ public class Trebuchet : Unit
         rb.angularVelocity = 0;
         LoadProjectile();
         reloading = false;
+        throwed = false;
         yield return null;
     }
 
