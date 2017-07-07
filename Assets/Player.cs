@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
 
     private bool followProjectile;
 
+    private bool returnCorroutineExecute;
 
     // Use this for initialization
     void Start () {
@@ -65,6 +66,16 @@ public class Player : MonoBehaviour {
         Vector3 newCamPosition = new Vector3(projPosition.transform.position.x, projPosition.transform.position.y, mainCamera.transform.position.z);
         mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, newCamPosition, interpolant);
         mainCamera.orthographicSize = Mathf.Lerp(mainCamera.orthographicSize, selectedUnit.cameraZoom, interpolant);
+        if (projPosition.GetComponent<Rigidbody2D>().velocity.magnitude == 0 && !returnCorroutineExecute)
+            StartCoroutine(ReturnLookToUnit(2));
+    }
+
+    IEnumerator ReturnLookToUnit(float time) {
+        returnCorroutineExecute = true;
+        yield return new WaitForSeconds(time);
+        followProjectile = false;
+        returnCorroutineExecute = false;
+        yield return null;
     }
 
     void NextUnit() {

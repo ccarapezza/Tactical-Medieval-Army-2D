@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: d7e8c8e0fbf692743a388d8ddec6e1f3
+timeCreated: 1499384524
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BlockWoodSquare0
+    21300002: BlockWoodSquare1
+    21300004: BlockWoodSquare3
+    21300006: BlockWoodSquare4
+    21300008: BlockGlassSquare0
+    21300010: BlockGlassSquare1
+    21300012: BlockGlassSquare2
+    21300014: BlockGlassSquare4
+    21300016: BlockStoneSquare1
+    21300018: BlockStoneSquare2
+    21300020: BlockStoneSquare3
+    21300022: BlockStoneSquare0
+    21300024: BlockWoodTriangule0
+    21300026: BlockWoodPyramid0
+    21300028: BlockWoodBrick0
+    21300030: BlockWoodVigaSmall0
+    21300032: BlockWoodVigaLarge0
+    21300034: BlockWoodBrick1
+    21300036: BlockWoodVigaSmall1
+    21300038: BlockWoodVigaLarge1
+    21300040: BlockWoodVigaSmall2
+    21300042: BlockWoodVigaLarge2
+    21300044: BlockWoodTriangule1
+    21300046: BlockWoodPyramid1
+    21300048: BlockWoodBrick2
+    21300050: BlockWoodVigaSmall3
+    21300052: BlockWoodVigaLarge3
+    21300054: BlockGlassVigaSmall0
+    21300056: BlockGlassVigaLarge0
+    21300058: BlockWoodBrick3
+    21300060: BlockGlassVigaSmall1
+    21300062: BlockGlassVigaLarge1
+    21300064: BlockWoodTriangule2
+    21300066: BlockWoodPyramid2
+    21300068: BlockGlassVigaSmall2
+    21300070: BlockGlassVigaLarge2
+    21300072: BlockGlassBrick0
+    21300074: BlockGlassVigaSmall3
+    21300076: BlockGlassVigaLarge3
+    21300078: BlockWoodTriangule3
+    21300080: BlockStoneVigaSmall0
+    21300082: BlockStoneVigaLarge0
+    21300084: BlockWoodPyramid3
+    21300086: BlockGlassBrick1
+    21300088: BlockStoneVigaSmall1
+    21300090: BlockStoneVigaLarge1
+    21300092: BlockGlassBrick2
+    21300094: BlockStoneVigaSmall2
+    21300096: BlockStoneVigaLarge2
+    21300098: BlockGlassTriangle0
+    21300100: BlockStoneVigaSmall3
+    21300102: BlockStoneVigaLarge3
+    21300104: BlockGlassPyramid0
+    21300106: BlockGlassBrick3
+    21300108: BlockStoneBrickSmall0
+    21300110: BlockWoodBrickSmall0
+    21300112: BlockGlassBrickSmall0
+    21300114: BlockGlassTriangle1
+    21300116: BlockGlassPyramid1
+    21300118: BlockStoneBrick1
+    21300120: BlockStoneBrickSmall1
+    21300122: BlockWoodBrickSmall1
+    21300124: BlockGlassBrickSmall1
+    21300126: BlockStoneBrick2
+    21300128: BlockStoneBrickSmall2
+    21300130: BlockWoodBrickSmall2
+    21300132: BlockGlassBrickSmall2
+    21300134: BlockGlassTriangle2
+    21300136: BlockGlassPyramid2
+    21300138: BlockStoneBrick3
+    21300140: BlockStoneBrickSmall3
+    21300142: BlockWoodBrickSmall3
+    21300144: BlockGlassBrickSmall3
+    21300146: BlockGlassTriangle3
+    21300148: BlockGlassPyramid3
+    21300150: BlockStoneBrick0
+    21300152: BlockStoneTriangle0
+    21300154: BlockStonePyramid0
+    21300156: BlockTNT
+    21300158: BlockStoneTriangle1
+    21300160: BlockStonePyramid1
+    21300162: BlockStoneTriangle2
+    21300164: BlockStonePyramid2
+    21300166: BlockStoneTriangle3
+    21300168: BlockStonePyramid3
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlockWoodSquare0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1035
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodSquare1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1036
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodSquare3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1036
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodSquare4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1036
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassSquare0
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1036
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassSquare1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1035
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassSquare2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1035
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassSquare4
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1035
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneSquare1
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1035
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneSquare2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1035
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneSquare3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1035
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneSquare0
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1035
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodTriangule0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 953
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodPyramid0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 951
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrick0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 990
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaSmall0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1008
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaLarge0
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1007
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrick1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 945
+        width: 80
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaSmall1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 981
+        width: 160
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaLarge1
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 981
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaSmall2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 954
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaLarge2
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 953
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodTriangule1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 874
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodPyramid1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 868
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrick2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 898
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaSmall3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 927
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodVigaLarge3
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 926
+        width: 195
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaSmall0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 900
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaLarge0
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 900
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrick3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 848
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaSmall1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 873
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaLarge1
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 873
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodTriangule2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 796
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodPyramid2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 786
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaSmall2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 846
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaLarge2
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 846
+        width: 195
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrick0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 796
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaSmall3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 819
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassVigaLarge3
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 819
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodTriangule3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 717
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaSmall0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 791
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaLarge0
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 790
+        width: 195
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodPyramid3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 706
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrick1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 748
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaSmall1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 765
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaLarge1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 765
+        width: 195
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrick2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 700
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaSmall2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 738
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaLarge2
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 738
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassTriangle0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 639
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaSmall3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 711
+        width: 161
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneVigaLarge3
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 711
+        width: 196
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassPyramid0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 626
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrick3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 649
+        width: 80
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrickSmall0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrickSmall0
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 653
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrickSmall0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 653
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassTriangle1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 559
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassPyramid1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 544
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrick1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 594
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrickSmall1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 611
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrickSmall1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 611
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrickSmall1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 611
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrick2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 545
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrickSmall2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 568
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrickSmall2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 567
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrickSmall2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 568
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassTriangle2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 482
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassPyramid2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 462
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrick3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 495
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrickSmall3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 525
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockWoodBrickSmall3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 525
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassBrickSmall3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 526
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassTriangle3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 402
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockGlassPyramid3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 380
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneBrick0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 445
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneTriangle0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 324
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStonePyramid0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 300
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockTNT
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 355
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneTriangle1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 245
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStonePyramid1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 220
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneTriangle2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 166
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStonePyramid2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 140
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStoneTriangle3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 88
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlockStonePyramid3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 59
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

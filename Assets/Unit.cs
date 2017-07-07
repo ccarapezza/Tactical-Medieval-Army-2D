@@ -14,7 +14,7 @@ public abstract class Unit : MonoBehaviour {
     public abstract void Move();
     public abstract void Attack();
 
-    protected void Update()
+    protected virtual void Update()
     {
         if (active)
         {
