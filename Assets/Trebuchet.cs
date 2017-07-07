@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trebuchet : Unit {
+public class Trebuchet : Unit
+{
     public GameObject beam;
     private Rigidbody2D rb;
     private bool throwed;
@@ -15,7 +16,7 @@ public class Trebuchet : Unit {
         rb = beam.GetComponent<Rigidbody2D>();
         LoadProjectile();
         throwed = false;
-        initialRotation = transform.eulerAngles;
+        initialRotation = rb.gameObject.transform.eulerAngles;
         reloading = false;
     }
 
@@ -30,13 +31,16 @@ public class Trebuchet : Unit {
     {
         if (reloading) return;
         if (Input.GetKey(KeyCode.Space))
+        {
             beam.transform.Rotate(Vector3.forward * Time.deltaTime * 25);
+            rb.bodyType = RigidbodyType2D.Kinematic;
+        }
 
         if (Input.GetKeyUp(KeyCode.Space))
             rb.bodyType = RigidbodyType2D.Dynamic;
 
-        if (Input.GetKeyUp(KeyCode.R))
-            StartCoroutine(ReloadTrebuchet());
+        // if (Input.GetKeyUp(KeyCode.R))
+        //     StartCoroutine(ReloadTrebuchet());
     }
 
     public override void Move()
@@ -46,15 +50,27 @@ public class Trebuchet : Unit {
 
     IEnumerator ReloadTrebuchet()
     {
+        float time = 0;
+        float z = beam.transform.eulerAngles.z;
+
         yield return new WaitForSeconds(2f);
         reloading = true;
         rb.bodyType = RigidbodyType2D.Kinematic;
-        while (beam.transform.eulerAngles != initialRotation) {
+        while (time < 1f)
+        {
             print("rotate");
             //beam.transform.Rotate(Vector3.forward * Time.deltaTime * 25);
-            beam.transform.rotation = Quaternion.identity * Quaternion.Euler(0f,0f,0.1f);
-            yield return new WaitForEndOfFrame();
+            var p = beam.transform.eulerAngles;
+            time += Time.deltaTime * 3f;
+            p.z = Mathf.LerpAngle(z, initialRotation.z, time);
+
+            beam.transform.eulerAngles = p;
+
+            yield return null;
         }
+
+        beam.transform.eulerAngles = initialRotation;
+        rb.angularVelocity = 0;
         LoadProjectile();
         reloading = false;
         yield return null;
@@ -63,8 +79,10 @@ public class Trebuchet : Unit {
     protected override void Update()
     {
         base.Update();
-        if (beam.transform.eulerAngles.z < 315f && beam.transform.eulerAngles.z >270f) {
-            if (!throwed) {
+        if (beam.transform.eulerAngles.z < 315f && beam.transform.eulerAngles.z > 270f)
+        {
+            if (!throwed)
+            {
                 throwed = true;
                 currentProjectile.GetComponent<Rigidbody2D>().velocity = currentProjectile.GetComponent<Rigidbody2D>().velocity * 1.6f;
                 rb.angularDrag = 10;
